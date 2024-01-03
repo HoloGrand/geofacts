@@ -5,12 +5,17 @@ Example input:
 geo austria info
 ```
 Example output:
+
+
 ![geo](https://github.com/HoloGrand/geofacts/assets/144293669/aeac84f7-9bd7-4960-a7b0-16e7799d6759)
 
 You can also give specialized commands to access only certain pieces of information.
+
+Example input:
 ```
 geo sudan capital
 ```
+Example output:
 ```
 Khartoum
 ```
@@ -33,7 +38,6 @@ wget https://raw.githubusercontent.com/HoloGrand/geofacts/main/install.sh -O - |
 ```
 ```
 git update-index --chmod=+x geo
-
 ```
 
 You may need to install special characters for the terminal if not already installed, for certain languages and currency symbols.
